@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chocolate Delight</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4efe9;
+      color: #4b2e2e;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #6b3e26;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #a9745b;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 4px;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #6b3e26;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    
+    h1 {
+      margin-bottom: 0.3em;
+    }
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .product {
+      background: #fff1e6;
+      border: 1px solid #ddb892;
+      border-radius: 10px;
+      padding: 15px;
+      width: 200px;
+      box-shadow: 0 4px 12px rgba(107, 62, 38, 0.2);
+      transition: transform 0.2s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    /*footer {
+      background-color: #6b3e26;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }*/
+    @media(max-width:600px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+      .product {
+        width: 90%;
+      }
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+    .footer {
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  color: #eee;
+  margin: 0 12px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #1961ff;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
+.img
+{
+text-shadow:2px 2px 10px silver;
+position:relative;
+height:800px;
+font-size:24px;
+width:220%;
+
+}
+
+
+  </style>
+</head>
+<body>
+  <header>Chocolate Delight</header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="home"> 
+      <h1>Welcome to Chocolate Delight</h1>
+      <p>Discover our delicious and handcrafted chocolate treats made with love.</p>
+    </img>
+    </section>
+    <section id="products" class="products">
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvO1fLh9Qg1C2ooYYj8ApQq2YNPjLceMdEVw&s" alt="Dark Chocolate" />
+        <h3>Dark Chocolate</h3>
+        <p>Rich and intense, perfect for chocolate lovers.</p>
+      </div>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgAuydWM-N01Wo3XLvWk-pq6J-Z9Pxq176pw&s" alt="Milk Chocolate" />
+        <h3>Milk Chocolate</h3>
+        <p>Smooth, creamy, and sweet delight.</p>
+      </div>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGO2dP883bicpKlnPTYA3CM5mbnqh2C0eO8Q&s" alt="Chocolate Truffles" />
+        <h3>Chocolate Truffles</h3>
+        <p>Luxurious and decadent handmade truffles.</p>
+      </div>
+    </section>
+    <section id="contact" style="margin-top: 40px;">
+      <h2>Contact Us</h2>
+      <p>Email: choclet@choco.com</p>
+      <p>Phone: 0123456789</p>
+    </section>
+  </main>
+  <section>	
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="social-link">
+      <i class="fa fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="social-link">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="social-link">
+      <i class="fa fa-youtube-play"></i>
+    </a>
+  </div>
+  <p>© 2025 Your Company</p>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		</div>
+	</section>	
+</body>
+</html>
